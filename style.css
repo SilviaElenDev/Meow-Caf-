@@ -18,7 +18,7 @@ header{
 }
 
 .containerHeader{
-    background-image: url(./Imaes/Imagem\ do\ header.png);
+    background-image: url(./Images/Imagem\ do\ header.png);
     width: 1188px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,12 +122,12 @@ section{
 }
 
 .sectionCafes{
-    background-image: url(./Imaes/BackDrinks.png);
+    background-image: url(./Images/BackDrinks.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.containerSection{
+.containerSectionCafes{
     width: 1188px;
     display: flex;
     flex-direction: column;
@@ -215,3 +215,43 @@ section{
 
 
 
+/*Seção Croissants*/
+
+.containerSectionCroissants{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#preçoCroissants{
+    background-color: white;
+    border-radius: 25px;
+    color: #F6C7C5;
+    padding: 5px 15px;
+}
+
+.textCroissants h2{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 10px 0px 20px;
+}
+
+.textCroissants .bar{
+    width: 60px;
+    line-height: 80px;
+}
+
+.textCroissants h3{
+    font-size:40px ;
+    font-weight: 300;
+}
+
+.textCroissants p {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#imgCroissants img{
+    height: 449px;
+    width: 503px;
+}
