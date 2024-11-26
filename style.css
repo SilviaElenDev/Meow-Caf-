@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f7f2e8; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom:90px;
+}
+
+.containerHeader{
+    background-image: url(./Imaes/Imagem\ do\ header.png);
+    width: 1188px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#menu{
+    height: 169px;
+    display: flex;
+    align-items: center;
+}
+
+#menu a{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a{
+    color:#3C0E0E;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bar{
+    border-bottom: solid 3px #3C0E0E;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    flex: 1;
+}
+
+#logo img{
+    width: 191px;
+}
+
+#logo span{
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+#opçoes{
+    flex: 2;
+}
+
+#login{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.deliveryHeader{
+    color: white;
+    background-color: #3C0E0E;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+}
+
+.textHeader{
+    height: 352px;
+    width: 338px;
+    padding-left:50px;
+}
+
+.text{
+    color: #3C0E0E;  
+}
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0px;
+    line-height:90px ;
+}
+
+p{
+    margin: 10px 0px 0px;
+}
+
+
+/*Seçao dos Cafés*/
+
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionCafes{
+    background-image: url(./Imaes/BackDrinks.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.containerSection{
+    width: 1188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.textCafés{
+    width: 545px;
+    height: 205px;
+}
+
+.textCafés h2{
+    margin: auto;
+    width:fit-content;
+    border-bottom: #3C0E0E solid 1px;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.textCafés p {
+    margin-bottom: 20px;
+}
+
+#cafes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafe{
+    color: white;
+    height: 468px;
+    width: 325px;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.cafe img{
+    height: 199px;
+    margin-top:40px ;
+}
+
+.cafe span{
+    margin-bottom: 10px;
+}
+
+.preço{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nomeCafe{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.descrição{
+    font-size: 14px;
+}
+
+.delivery{
+    margin-top: 10px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 10px 20px #54151191;
+    padding: 15px;
+}
+
+.capuccino{
+    background-image: linear-gradient(to bottom left, #F6C7C5, #C27D7A );
+}
+
+.leite{
+    background-image: linear-gradient(to bottom left, #FAFAFA, #541511 );
+}
+
+.preto{
+    background-image: linear-gradient(to bottom left, #0A0909, #541511 );
+}
+
+
+
+
