@@ -221,6 +221,10 @@ section{
     display: flex;
     align-items: center;
     text-align: left;
+    margin: 100px 0px 50px;
+    width: 1115px;
+    justify-content: space-between;
+    padding-left: 20px;
 }
 
 #preçoCroissants{
@@ -262,6 +266,7 @@ section{
     display: flex;
     align-items: end;
     color: white;
+    margin-bottom: 50px;
 }
 
 #deliveryBackground{
@@ -306,3 +311,50 @@ section{
   margin-top: 50px;
   width: 200px;
 }
+
+
+.sectionSobre{
+    background-image: url(./Images/Background.png);
+    background-size: contain;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    color: #541511;
+}
+
+.containerSectionSobre{
+    display: flex;
+    width: 938px;
+    height: 339px;
+    padding: 0px 50px 0px 20px;
+    text-align: left;
+}
+
+#textLeft {
+    width: 449px;
+}
+
+#textLeft span{
+    font-size: 20px;
+}
+
+
+#textLeft h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height:50px ;
+    margin-top: 0px;
+}
+
+#textRight {
+    padding-left:50px ;
+    width:390px ;
+}
+
+#textRight span{
+    font-weight: bold;
+}
+
+
+
+
