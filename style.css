@@ -471,3 +471,53 @@ section{
     padding-left: 40px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 180px 0px;
+}
+
+.containerFooter{
+    width: 1115px;
+    display: flex;
+    border-top: solid rgba(0, 0, 0, 0.247) 1px;
+    padding: 120px 0px 0px;
+    color: #541511;
+    line-height: 30px;
+}
+
+.titulosFooter{
+    color: black;
+    padding-bottom: 30px;
+}
+
+.informações{
+   flex: 1;
+}
+
+.links{
+    flex: 1;
+    margin-left: 180px;
+    
+}
+
+.links a{
+    font-weight: normal;
+    
+}
+
+.institucional{
+    flex: 1;
+}
+
+.institucional a {
+    font-weight: normal;
+}
+
+.institucional p {
+    margin-top: 0px;
+}
+
+.redesSociais{
+    margin-top: 20px
+}
