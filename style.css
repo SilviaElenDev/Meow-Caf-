@@ -43,7 +43,7 @@ a{
     font-weight: 600;
 }
 
-.bar{
+.barInicio{
     border-bottom: solid 3px #3C0E0E;
 }
 
@@ -237,7 +237,14 @@ section{
 .textCroissants h2{
     font-weight: bold;
     font-size: 80px;
-    margin: 10px 0px 20px;
+    margin: 10px 0px -15px;
+}
+
+.bar{
+    height:2px;
+    background-color: #541511;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 .textCroissants .bar{
@@ -315,6 +322,7 @@ section{
 
 .sectionSobre{
     background-image: url(./Images/Background.png);
+    background-repeat: no-repeat;
     background-size: contain;
     height: 750px;
     display: flex;
@@ -357,4 +365,109 @@ section{
 
 
 
+
+
+
+.containerSectionEnjoy{
+    width: 1115px;
+    height: 400px;
+    display: flex;
+    align-items: end;
+}
+
+.sectionEnjoyBackground{
+    height: 432px;
+    width: 1115px;
+    display: flex;
+}
+
+.enjoyLeft{
+    background-image: linear-gradient(to top, #f3c7c4,#541511);
+    width:742px ;
+    height: inherit;
+    display: flex;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.textLeftEnjoy{
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+}
+
+.textLeftEnjoy h2{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-right: 70px;
+    margin-bottom: 5px;
+}
+
+.barEnjoyLeft{
+    background-color: white;
+    width: 40px;
+    height: 1px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+
+}
+
+
+.textLeftEnjoy span{
+    font-size: 20px;
+}
+
+.textLeftEnjoy p {
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.imagemEnjoy img{
+    width: 562px;
+    position:relative;
+    left: -50px;
+    top: -70px;
+}
+
+.enjoyRight{
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    width: 373px;
+    height: inherit;
+    background-image: linear-gradient(to bottom , #8f423d, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enjoyRight h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.enjoyRight p{
+    width: 300px;
+    text-align: left;
+}
+
+
+.barEnjoyRight{
+    background-color: white;
+    width: 300px;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+
+}
+
+.endereço{
+    display: flex;
+    padding-top: 20px;
+}
+
+.endereço img{
+    padding-right: 10px;
+    padding-left: 40px;
+}
 
