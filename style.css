@@ -14,21 +14,39 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin-bottom:90px;
+    padding-bottom:90px;
+
 }
 
-.containerHeader{
+#containerHeader{
     background-image: url(./Images/Imagem\ do\ header.png);
-    width: 1188px;
+    min-width: 400px;
+    max-width: 1188px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
 
+menu{
+    position: sticky;
+    z-index: 1;
+    background-color: #f7f2e8;
+    box-shadow: #8f423d 0px 5px 10px;
+    margin: 0px;
+    top: 0;
+}
+
 #menu{
-    height: 169px;
+    margin: auto;
+    max-width: 1188px;
+    height: 109px;
     display: flex;
     align-items: center;
+    padding-right: 40px;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 10px;
+    justify-content: space-between;
 }
 
 #menu a{
@@ -52,11 +70,11 @@ a{
     justify-content: center;
     align-items: center;
     margin-right: 30px;
-    flex: 1;
 }
 
 #logo img{
-    width: 191px;
+    max-width: 191px;
+    min-width:100px;
 }
 
 #logo span{
@@ -65,14 +83,14 @@ a{
 }
 
 #opçoes{
-    flex: 2;
+
 }
 
 #login{
-    flex: 1;
     display: flex;
     justify-content: end;
     align-items: center;
+
 }
 
 .deliveryHeader{
@@ -86,8 +104,10 @@ a{
 
 .textHeader{
     height: 352px;
-    width: 338px;
+    max-width: 338px;
+    min-width: 250px;
     padding-left:50px;
+    padding-top: 25px;
 }
 
 .text{
@@ -121,7 +141,7 @@ section{
     text-align: center;
 }
 
-.sectionCafes{
+#sectionCafes{
     background-image: url(./Images/BackDrinks.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -320,7 +340,7 @@ section{
 }
 
 
-.sectionSobre{
+#sectionSobre{
     background-image: url(./Images/Background.png);
     background-repeat: no-repeat;
     background-size: contain;

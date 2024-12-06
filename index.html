@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="containerHeader">
+    <header id="header">
+        <div id="containerHeader">
             <div id="menu">
                 <div id="logo">
                     <img src="./Images/Cat.png" alt="">
                     <span>Meow Café</span>
                 </div>
                 <div id="opçoes">
-                    <a class="barInicio" href="">Início</a>
-                    <a href="">Produtos</a>
-                    <a href="">Sobre</a>
+                    <a class="barInicio" href="#header">Início</a>
+                    <a href="#sectionCafes">Produtos</a>
+                    <a href="#sectionSobre">Sobre</a>
                 </div>
                 <div id="login">
                     <a href="">Login</a>
@@ -31,7 +31,7 @@
             </div>
         </div>
     </header>
-    <section class="sectionCafes">
+    <section id="sectionCafes">
         <div class="containerSectionCafes">
             <div class="text textCafés">
                 <h2>Cafés</h2>
@@ -94,7 +94,7 @@
             </div>    
         </div>
     </section>
-    <section class="sectionSobre">
+    <section id="sectionSobre">
         <div class="containerSectionSobre">
             <div id="textLeft">
                 <span>Sobre nós</span>
@@ -164,5 +164,6 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
